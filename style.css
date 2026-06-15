@@ -49,3 +49,41 @@ margin: 0 1em;
     font-size: 1.2em;
     color: #666;
 }
+
+/* Portfolio section: container layout */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+/* Every Portfolio item card */
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+/* The portfolio headings */
+.portfolio-item h3 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+/* Portfolio item texts */
+.portfolio-item p {
+    margin-bottom: 0.5em;
+    color: #666;
+}
+
+/* Portfolio item images */
+.portfolio-item img {
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
