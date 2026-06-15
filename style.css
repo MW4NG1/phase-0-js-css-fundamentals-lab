@@ -1,0 +1,29 @@
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Removing default list styling */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Making the items in line */
+.navbar ul li {
+display: inline;
+margin: 0 1em;
+}
+
+/* Style the links */
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
