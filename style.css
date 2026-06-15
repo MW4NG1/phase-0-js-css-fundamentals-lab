@@ -7,6 +7,7 @@
   position: fixed;
   top: 0;
   z-index: 1000;
+  width: 100%;
 }
 
 /* Removing default list styling */
@@ -42,7 +43,7 @@
 /* Main heading in home section */
 #home h1 {
   font-size: 2.5em;
-  margin-bottom: 0.5 em;
+  margin-bottom: 0.5em;
 }
 
 #home p {
