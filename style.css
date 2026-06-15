@@ -92,3 +92,14 @@ margin: 0 1em;
 .portfolio-item:hover {
     transform: scale( 1.05);
 }
+
+/* Styling of the footer using ID selector */
+#footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
